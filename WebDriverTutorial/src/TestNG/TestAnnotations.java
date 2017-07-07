@@ -3,7 +3,7 @@ package TestNG;
 import org.testng.annotations.*;
 
 public class TestAnnotations {
-	
+	//Annotation for Test
   @Test
   public void f1() {
 	  System.out.println("Inside F1");
