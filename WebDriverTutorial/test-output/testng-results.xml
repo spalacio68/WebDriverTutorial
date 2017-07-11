@@ -1,53 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74" started-at="2017-07-07T07:41:47Z" finished-at="2017-07-07T07:41:47Z">
+  <suite name="Default suite" duration-ms="6911" started-at="2017-07-11T05:32:51Z" finished-at="2017-07-11T05:32:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74" started-at="2017-07-07T07:41:47Z" finished-at="2017-07-07T07:41:47Z">
-      <class name="TestNG.TestDependencyUsingFacebook">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNG.TestDependencyUsingFacebook@4de8b406]" name="openBrowser" duration-ms="57" started-at="2017-07-07T00:41:47Z" finished-at="2017-07-07T00:41:47Z">
+    <test name="Default test" duration-ms="6911" started-at="2017-07-11T05:32:51Z" finished-at="2017-07-11T05:32:57Z">
+      <class name="TestNG.TestNGAssertions">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNG.TestNGAssertions@50c87b21]" name="openBrowser" is-config="true" duration-ms="4556" started-at="2017-07-10T22:32:51Z" finished-at="2017-07-10T22:32:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="loginToFacebook()[pri:0, instance:TestNG.TestDependencyUsingFacebook@4de8b406]" name="loginToFacebook" duration-ms="3" started-at="2017-07-07T00:41:47Z" depends-on-methods="TestNG.TestDependencyUsingFacebook.openBrowser" finished-at="2017-07-07T00:41:47Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at TestNG.TestDependencyUsingFacebook.loginToFacebook(TestDependencyUsingFacebook.java:32)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestNG.TestNGAssertions@50c87b21]" name="AfterTest" duration-ms="2320" started-at="2017-07-10T22:32:55Z" finished-at="2017-07-10T22:32:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToFacebook -->
-      </class> <!-- TestNG.TestDependencyUsingFacebook -->
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:TestNG.TestNGAssertions@50c87b21]" name="getTitle" duration-ms="20" started-at="2017-07-10T22:32:57Z" finished-at="2017-07-10T22:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="testEquality()[pri:0, instance:TestNG.TestNGAssertions@50c87b21]" name="testEquality" duration-ms="2" started-at="2017-07-10T22:32:57Z" finished-at="2017-07-10T22:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEquality -->
+      </class> <!-- TestNG.TestNGAssertions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
