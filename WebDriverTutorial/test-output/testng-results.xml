@@ -1,29 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6911" started-at="2017-07-11T05:32:51Z" finished-at="2017-07-11T05:32:57Z">
+  <suite name="TestNG" duration-ms="5654" started-at="2017-07-11T05:44:56Z" finished-at="2017-07-11T05:45:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6911" started-at="2017-07-11T05:32:51Z" finished-at="2017-07-11T05:32:57Z">
+    <test name="Test Assertion" duration-ms="4640" started-at="2017-07-11T05:44:56Z" finished-at="2017-07-11T05:45:01Z">
       <class name="TestNG.TestNGAssertions">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNG.TestNGAssertions@50c87b21]" name="openBrowser" is-config="true" duration-ms="4556" started-at="2017-07-10T22:32:51Z" finished-at="2017-07-10T22:32:55Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNG.TestNGAssertions@20e2cbe0]" name="openBrowser" is-config="true" duration-ms="4628" started-at="2017-07-10T22:44:56Z" finished-at="2017-07-10T22:45:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestNG.TestNGAssertions@50c87b21]" name="AfterTest" duration-ms="2320" started-at="2017-07-10T22:32:55Z" finished-at="2017-07-10T22:32:57Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestNG.TestNGAssertions@20e2cbe0]" name="AfterTest" duration-ms="1" started-at="2017-07-10T22:45:01Z" finished-at="2017-07-10T22:45:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="getTitle()[pri:0, instance:TestNG.TestNGAssertions@50c87b21]" name="getTitle" duration-ms="20" started-at="2017-07-10T22:32:57Z" finished-at="2017-07-10T22:32:57Z">
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:TestNG.TestNGAssertions@20e2cbe0]" name="getTitle" duration-ms="5" started-at="2017-07-10T22:45:01Z" finished-at="2017-07-10T22:45:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="testEquality()[pri:0, instance:TestNG.TestNGAssertions@50c87b21]" name="testEquality" duration-ms="2" started-at="2017-07-10T22:32:57Z" finished-at="2017-07-10T22:32:57Z">
+        <test-method status="PASS" signature="testEquality()[pri:0, instance:TestNG.TestNGAssertions@20e2cbe0]" name="testEquality" duration-ms="0" started-at="2017-07-10T22:45:01Z" finished-at="2017-07-10T22:45:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEquality -->
       </class> <!-- TestNG.TestNGAssertions -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test Assertion -->
+    <test name="Test Dependency" duration-ms="5654" started-at="2017-07-11T05:44:56Z" finished-at="2017-07-11T05:45:02Z">
+      <class name="TestNG.TestDependencyUsingFacebook">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNG.TestDependencyUsingFacebook@4de8b406]" name="openBrowser" duration-ms="4414" started-at="2017-07-10T22:44:56Z" finished-at="2017-07-10T22:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToFacebook()[pri:0, instance:TestNG.TestDependencyUsingFacebook@4de8b406]" name="loginToFacebook" duration-ms="1226" started-at="2017-07-10T22:45:01Z" depends-on-methods="TestNG.TestDependencyUsingFacebook.openBrowser" finished-at="2017-07-10T22:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFacebook -->
+      </class> <!-- TestNG.TestDependencyUsingFacebook -->
+    </test> <!-- Test Dependency -->
+  </suite> <!-- TestNG -->
 </testng-results>

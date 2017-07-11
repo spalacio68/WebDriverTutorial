@@ -58,6 +58,6 @@ public class TestNGAssertions {
 	
 	@Test
 	public void AfterTest(){
-		driver.close();
+		//driver.close();
 	}
 }
