@@ -1,41 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG" duration-ms="5654" started-at="2017-07-11T05:44:56Z" finished-at="2017-07-11T05:45:02Z">
+  <suite name="Suite" duration-ms="6819" started-at="2017-07-11T07:54:05Z" finished-at="2017-07-11T07:54:12Z">
     <groups>
     </groups>
-    <test name="Test Assertion" duration-ms="4640" started-at="2017-07-11T05:44:56Z" finished-at="2017-07-11T05:45:01Z">
-      <class name="TestNG.TestNGAssertions">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNG.TestNGAssertions@20e2cbe0]" name="openBrowser" is-config="true" duration-ms="4628" started-at="2017-07-10T22:44:56Z" finished-at="2017-07-10T22:45:01Z">
+    <test name="IE Test Cases" duration-ms="2545" started-at="2017-07-11T07:54:05Z" finished-at="2017-07-11T07:54:08Z">
+      <class name="crossBrowsers.VerifyTitle">
+        <test-method status="PASS" signature="verifypageTitle(java.lang.String)[pri:0, instance:crossBrowsers.VerifyTitle@20e2cbe0]" name="verifypageTitle" duration-ms="2529" started-at="2017-07-11T00:54:05Z" finished-at="2017-07-11T00:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestNG.TestNGAssertions@20e2cbe0]" name="AfterTest" duration-ms="1" started-at="2017-07-10T22:45:01Z" finished-at="2017-07-10T22:45:01Z">
+        </test-method> <!-- verifypageTitle -->
+      </class> <!-- crossBrowsers.VerifyTitle -->
+    </test> <!-- IE Test Cases -->
+    <test name="Firefox Test Cases" duration-ms="4339" started-at="2017-07-11T07:54:05Z" finished-at="2017-07-11T07:54:09Z">
+      <class name="crossBrowsers.VerifyTitle">
+        <test-method status="PASS" signature="verifypageTitle(java.lang.String)[pri:0, instance:crossBrowsers.VerifyTitle@402f32ff]" name="verifypageTitle" duration-ms="4324" started-at="2017-07-11T00:54:05Z" finished-at="2017-07-11T00:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="getTitle()[pri:0, instance:TestNG.TestNGAssertions@20e2cbe0]" name="getTitle" duration-ms="5" started-at="2017-07-10T22:45:01Z" finished-at="2017-07-10T22:45:01Z">
+        </test-method> <!-- verifypageTitle -->
+      </class> <!-- crossBrowsers.VerifyTitle -->
+    </test> <!-- Firefox Test Cases -->
+    <test name="Chrome Test Cases" duration-ms="6819" started-at="2017-07-11T07:54:05Z" finished-at="2017-07-11T07:54:12Z">
+      <class name="crossBrowsers.VerifyTitle">
+        <test-method status="PASS" signature="verifypageTitle(java.lang.String)[pri:0, instance:crossBrowsers.VerifyTitle@d2cc05a]" name="verifypageTitle" duration-ms="6803" started-at="2017-07-11T00:54:05Z" finished-at="2017-07-11T00:54:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="testEquality()[pri:0, instance:TestNG.TestNGAssertions@20e2cbe0]" name="testEquality" duration-ms="0" started-at="2017-07-10T22:45:01Z" finished-at="2017-07-10T22:45:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEquality -->
-      </class> <!-- TestNG.TestNGAssertions -->
-    </test> <!-- Test Assertion -->
-    <test name="Test Dependency" duration-ms="5654" started-at="2017-07-11T05:44:56Z" finished-at="2017-07-11T05:45:02Z">
-      <class name="TestNG.TestDependencyUsingFacebook">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNG.TestDependencyUsingFacebook@4de8b406]" name="openBrowser" duration-ms="4414" started-at="2017-07-10T22:44:56Z" finished-at="2017-07-10T22:45:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="loginToFacebook()[pri:0, instance:TestNG.TestDependencyUsingFacebook@4de8b406]" name="loginToFacebook" duration-ms="1226" started-at="2017-07-10T22:45:01Z" depends-on-methods="TestNG.TestDependencyUsingFacebook.openBrowser" finished-at="2017-07-10T22:45:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToFacebook -->
-      </class> <!-- TestNG.TestDependencyUsingFacebook -->
-    </test> <!-- Test Dependency -->
-  </suite> <!-- TestNG -->
+        </test-method> <!-- verifypageTitle -->
+      </class> <!-- crossBrowsers.VerifyTitle -->
+    </test> <!-- Chrome Test Cases -->
+  </suite> <!-- Suite -->
 </testng-results>
